@@ -54,20 +54,17 @@ public class TileEntityAdvancedItemCollector extends TileEntity {
 
         if (rangeX < 0) {
             this.rangeX = 0;
-        } else if (rangeX > 10) {
-            this.rangeX = 10;
+       
         }
 
         if (rangeY < 0) {
             this.rangeY = 0;
-        } else if (rangeY > 10) {
-            this.rangeY = 10;
+      
         }
 
         if (rangeZ < 0) {
             this.rangeZ = 0;
-        } else if (rangeZ > 10) {
-            this.rangeZ = 10;
+       
         }
     }
 
