@@ -74,16 +74,13 @@ public class GuiItemCollector extends GuiContainer {
 
         if (te.rangeX < 0) {
             te.rangeX = 0;
-        } else if (te.rangeX > 10) {
-            te.rangeX = 10;
+        
         } else if (te.rangeY < 0) {
             te.rangeY = 0;
-        } else if (te.rangeY > 10) {
-            te.rangeY = 10;
+       
         } else if (te.rangeZ < 0) {
             te.rangeZ = 0;
-        } else if (te.rangeZ > 10) {
-            te.rangeZ = 10;
+      
         } else {
             packet = new MessageItemCollector(te);
             PacketHandler.INSTANCE.sendToServer(packet);
